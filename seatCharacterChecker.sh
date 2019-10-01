@@ -1,4 +1,4 @@
-# This script on jq
+# This script depends on jq
 # Run environmental variables so they are available in the main script
 . env.sh
 
