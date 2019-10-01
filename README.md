@@ -8,3 +8,6 @@ Scripts used to ping services using bash
 
 ## How to use
 
+## Dependencies 
+
+JQ -  installed by using `brew install jq`
