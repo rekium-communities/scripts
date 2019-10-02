@@ -28,7 +28,6 @@ for SERVICES in ${OTHER_SERVICES}; do
   fi
 done
 
-echo $WEB_RESULT$OTHER_RESULTS
 
 curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-362621306", "text": "Chequeo diario de Servicios:\n'"$WEB_RESULT$OTHER_RESULTS"'"}'  ${TELEGRAM_API_ENPOINT}
 

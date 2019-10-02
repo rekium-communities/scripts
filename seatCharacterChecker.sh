@@ -25,4 +25,4 @@ done
  
 EXPIRED_CHARACTERS="${EXPIRED_CHARACTERS//\"}"
 
-curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-362621306", "text": "SEAT Characteres con token invalidos:\n'"$EXPIRED_CHARACTERS"'"}'  ${TELEGRAM_API_ENPOINT}
+ curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-362621306", "text": "SEAT Characteres con token invalidos:\n'"$EXPIRED_CHARACTERS"'"}'  ${TELEGRAM_API_ENPOINT}
