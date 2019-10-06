@@ -2,7 +2,7 @@
 # Run environmental variables so they are available in the main script
 . env.sh
 
-#Due to lack of support. This script has to live within the droplet
+#Due to lack of support from SEAT. This script has to live within the same environment as the db or modify script to do it remotely
 
 SQLRESULT=$(mysql -u${DB_USER} -p${DB_PASSWORD} --database=${DB_USER} -e "select character_id from corporation_member_trackings where corporation_id=98176563 AND character_id not in (select id from users);")
  
