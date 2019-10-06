@@ -1,5 +1,3 @@
-
-
 # Scripts
 
 Scripts used to check service status using bash.
