@@ -10,4 +10,4 @@ Scripts used to ping services using bash
 
 ## Dependencies 
 
-JQ -  installed by using `brew install jq`
+JQ -  installed by using `brew install jq` or `apt-get install jq`
