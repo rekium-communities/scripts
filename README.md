@@ -1,10 +1,8 @@
-TODO
 
-[] UPDATE DOCS
 
 # Scripts
 
-Scripts used to ping services using bash
+Scripts used to check service status using bash.
 
 ## How to use
 
