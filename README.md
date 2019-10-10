@@ -12,3 +12,6 @@ Scripts used to check service status using bash.
 ## Dependencies 
 
 jq -  installed by using `brew install jq` or `apt-get install jq`
+
+
+TODO : Traducir al español 
