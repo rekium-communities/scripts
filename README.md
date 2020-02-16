@@ -13,5 +13,7 @@ Scripts used to check service status using bash.
 
 jq -  installed by using `brew install jq` or `apt-get install jq`
 
+## Notes
+have to run scripts with `bash` instead of `sh`
 
 TODO : Traducir al español 
